@@ -2,11 +2,11 @@ package model;
 
 public class TypeCompte {
 	
-	protected String Libelle_Cpt;
-	protected String Type_Cpt;
-	protected double Taux;
-	protected double Dec_Max_A;
-	protected double Plafond_Cte;
+	private String Libelle_Cpt;
+	private String Type_Cpt;
+	private double Taux;
+	private double Dec_Max_A;
+	private double Plafond_Cte;
 	
 	public TypeCompte(String libellecpt, String typecpt, double taux, double dec_max_a, double plafond_cte) {
 		this.Libelle_Cpt = libellecpt;
@@ -20,7 +20,6 @@ public class TypeCompte {
 		this.Taux = n_taux;
 	}
 	
-	//need DBB here
 	
 	public String Afficher_Type() {
 		return this.Type_Cpt;
