@@ -1,0 +1,13 @@
+target/
+*.class
+src/main/resources/config.properties
+.DS_Store
+*.swp
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
