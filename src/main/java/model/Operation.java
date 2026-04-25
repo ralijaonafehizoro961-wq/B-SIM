@@ -2,27 +2,38 @@ package model;
 
 public class Operation {
 
-	private int n_mvt;
-	private String Date_Mvt;
-	private double Montant_Mvt;
-	private String Type_Mvt;
+	private int numeroMvt;
+	private String dateMvt;
+	private double montantMvt;
+	private String typeMvt;
+	private String numeroCompte;
 	
-	public Operation() {
-	
-		this.n_mvt = 0;
-		this.Date_Mvt = null;
-		this.Montant_Mvt = 0.0;
-		this.Type_Mvt = null;
-	
+	public Operation(int num, String date, double m, String type, String numCpt) {
+		this.numeroMvt = num;
+		this.dateMvt = date;
+		this.montantMvt = m;
+		this.typeMvt = type;
+		this.numeroCompte = numCpt;
 	}
 	
-	public void Ajouter_Mvt(int number, String date, double montant, String type_mvt) {
-	
-		this.n_mvt = number;
-		this.Date_Mvt = date;
-		this.Montant_Mvt = montant;
-		this.Type_Mvt = type_mvt;
-	
+	public int getNumeroMvt() {
+		return this.numeroMvt;
 	}
-
+	
+	public String getDateMvt() {
+		return this.dateMvt;
+	}
+	
+	public double getMontantMvt() {
+		return this.montantMvt;
+	}
+	
+	public String getTypeMvt() {
+		return this.typeMvt;
+	}
+	
+	public String getNumeroCompte() {
+		return this.numeroCompte;
+	}
+	
 }
