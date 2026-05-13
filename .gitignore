@@ -1,6 +1,6 @@
 target/
 *.class
-src/main/resources/config.properties
+src/main/resources/com/bsim/config.properties
 .DS_Store
 *.swp
 
