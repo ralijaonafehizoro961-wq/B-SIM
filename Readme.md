@@ -5,7 +5,7 @@ Application desktop Java de gestion de comptes bancaires.
 > 🚧 Projet en cours de développement
 
 ## Technologies
-- Java 17 + Swing
+- Java 21 + JavaFX
 - MySQL 8
 - Maven
 
