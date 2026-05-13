@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ConnexionDB {
 
-    private static Connection connexion = null;
+    private static Connection connexion;
 
     public static Connection getConnexion() {
         try {
